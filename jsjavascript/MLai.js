@@ -1,0 +1,21 @@
+function activeNmorph(){
+
+        do while{
+
+
+
+
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+}
