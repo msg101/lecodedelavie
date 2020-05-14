@@ -1,1 +1,1 @@
-document.write("i'm not even build yet");
+document.write("i'm not even build yet, also dataGenerator offline or damaged");
