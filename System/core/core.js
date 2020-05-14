@@ -1,1 +1,1 @@
-document.write("i'm not even build yet");
+document.write("Error 1000: i'm not even build yet, also dataGenerator Module offline or damaged");
