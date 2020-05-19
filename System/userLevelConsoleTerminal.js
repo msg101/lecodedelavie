@@ -1,0 +1,1 @@
+document.write(core1.serial);
