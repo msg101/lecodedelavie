@@ -12,6 +12,9 @@
  
  class core{
          constructor(){
+            this.model = "A100";
+            this.serial = "MLaiA100";
+            this.mfg = "Jupiterjst";
 
          }
          
@@ -20,8 +23,4 @@
  core1 = new core();
  
 
- function core(){
-     this.model = "A100";
-     this.serial = "MLaiA100";
-     this.mfg = "Jupiterjst";
- }
+ 
