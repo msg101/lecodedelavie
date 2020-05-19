@@ -10,7 +10,7 @@
  // would need PSeudo codes to how to do self-aware unit
  //then it call System Object System.Calls.core2System();
  
- class core{
+ class Core{
          constructor(){
             this.model = "A100";
             this.serial = "MLaiA100";
@@ -20,7 +20,14 @@
          
 }
 
- core1 = new core();
+ Core1 = new Core();
  
+//Core.prototype.
+ 
+/*Core.prototype.          function (){
 
- 
+
+}
+        
+
+*/
