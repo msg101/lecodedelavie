@@ -14,22 +14,14 @@
          constructor(){
 
          }
-         class Calls{
-             constructor(){
-
-             }
-         }
+         
 }
 
  core1 = new core();
- calls1 = new Calls();
+ 
 
  function core(){
      this.model = "A100";
      this.serial = "MLaiA100";
      this.mfg = "Jupiterjst";
- }
-
- function Calls(){
-     
  }
