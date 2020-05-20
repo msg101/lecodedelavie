@@ -11,22 +11,21 @@
  //then it call System Object System.Calls.core2System();
  
  class Core{
+   constructor(){
+      this.model = "A100";
+      this.serial = "MLaiA100";
+      this.mfg = "Jupiterjst";
+   
+   }
          
          
 }
 
  Core1 = new Core();
  
-//Core.prototype.
+//Core.prototype.attributesExample = "yes";
  
-/*Core.prototype.          function (){
+/*Core.prototype.methodExample = function (){
 //}
  */
-
-function Core(){
-   this.model = "A100";
-   this.serial = "MLaiA100";
-   this.mfg = "Jupiterjst";
-
-}
 
