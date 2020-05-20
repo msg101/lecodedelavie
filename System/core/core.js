@@ -22,6 +22,7 @@
 }
 
  Core1 = new Core();
+ System1.bootRqst();
  
 //Core.prototype.attributesExample = "yes";
  
