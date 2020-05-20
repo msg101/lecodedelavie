@@ -9,7 +9,7 @@
  *
  *       do while{
  * 
- * 
+ * it has so many Logics variables then it refresh/update its OOP parameters
  * 
  * 
  */
