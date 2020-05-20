@@ -1,1 +1,1 @@
-document.write(Core1.serial);
+document.write("<br>" + Core1.serial);
