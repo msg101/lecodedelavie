@@ -27,13 +27,15 @@ class MLai{
 class Do{
         constructor(){
            this.requirements = "requirements";
-           this.Learnt = "blank";
-           this.LearntlogicsAssign = new Boolean(true);
+           this.Learnt = [];
+           this.LearntlogicsAssign = [];
          }
 }
      
       MLai1 = new MLai();
       Do1 = new Do();
+      MLai1.Learn();
+      Do1.changeTransformationOOP();
       
      //MLai.prototype.attributesExample = "yes";
       
@@ -52,7 +54,18 @@ class Do{
      } 
 
     Do.prototype.changeTransformationOOP = function (){
-        Do1.Learnt = "to stay away from People";
+      var i = 0;     
+      for(i=0; i<= 999999999999999;i++){
+         Do1.Learnt[i] = "blank";
+         Do1.LearntlogicsAssign[i] = new Boolean(true);
+       
+         
+         for(j=0; j<=999999999999999;j++){
+            Do1.Learnt[i][j] = "blank";
+            Do1.LearntlogicsAssign[i][j] = new Boolean(true);
+         }
+
+        Do1.Learnt[0] = "stay away from people";
 
     }
             
