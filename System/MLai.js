@@ -23,12 +23,13 @@ class MLai{
               
               
 }
-
+//will also have Array here instead
 class Do{
         constructor(){
            this.requirements = "requirements";
            this.Learnt = "blank";
-        }
+           this.LearntlogicsAssign = new Boolean(true);
+         }
 }
      
       MLai1 = new MLai();
@@ -52,7 +53,7 @@ class Do{
 
     Do.prototype.changeTransformationOOP = function (){
         Do1.Learnt = "to stay away from People";
-        
+
     }
             
         
