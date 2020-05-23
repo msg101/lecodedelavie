@@ -15,14 +15,22 @@
  */
 class MLai{
         constructor(){
-                this.intelligence = "logic assignment technologies";
-                this.whoareyouClause = "who are you?";
-                this.whoareyouClauseLogics = new Boolean(true);
+           this.requirements = "requirements";
+           
+        
         }
-}
+              
+              
+     }
+     
+      MLai1 = new MLai();
 
-MLai1 = new MLai();
-
+      
+     //MLai.prototype.attributesExample = "yes";
+      
+     /*MLai.prototype.methodExample = function (){
+     //}
+      */
 
             
         
