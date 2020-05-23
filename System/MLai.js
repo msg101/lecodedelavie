@@ -53,4 +53,4 @@ class Do{
       
    }  
             
-      document.write("<br>" + "display something");
+      document.write("display something");
