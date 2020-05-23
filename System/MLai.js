@@ -67,7 +67,7 @@ class Do{
          }
 
         Do1.Learnt[0] = "stay away from people";
-        document.write("<br>" + Do1.Learnt[0] + Do1.LearntlogicsAssign);
+        document.write("<br>" + Do1.Learnt[0] + Do1.LearntlogicsAssign[0]);
       }
    }  
             
