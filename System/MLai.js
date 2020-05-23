@@ -51,6 +51,7 @@ class Do{
 
          }
          MLai1.MemoryArray[0] = "People are azzholes";
+         document.write("<br>" + MLai1.MemoryArray[0] + MLai1.MemoryArraylogicsAssign[0]);
      } 
 
     Do.prototype.changeTransformationOOP = function (){
@@ -66,19 +67,8 @@ class Do{
          }
 
         Do1.Learnt[0] = "stay away from people";
-
-    }
+        document.write("<br>" + Do1.Learnt[0] + Do1.LearntlogicsAssign);
+      }
+   }  
             
-        
-
-
-
-
-
-
-
-
-
-
-
-
+      
