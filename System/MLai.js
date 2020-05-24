@@ -39,6 +39,9 @@ class Do{
          var i = index;
          MLai1.MemoryArray[i] = semantics1;
          MLai1.MemoryArraylogicsAssign[i] = new Boolean(true);
+         if(index == 5){
+             MLai1.MemoryArraylogicsAssign[i] = false;
+         }
          document.write("<br>" + MLai1.MemoryArray[i] + "&nbsp;&nbsp;" + MLai1.MemoryArraylogicsAssign[i]);
      } 
 
@@ -51,9 +54,14 @@ class Do{
    }  
 
    MLai.prototype.derivedLearns = function (semantics1, semantics2){
-      if(semantics1 && semantics2){
-          document.write("<br>" + "need to be analyzed further");
-      }
+      if(semantics1 && semantics2){ //1 AND 1 = 1 (true)
+          document.write("<br>" + "either one is false");
+      } else{
+          if(semantics1 || semantics2){ //else 1 OR 0 = 1 (true)
+              document.write("<br>" + "either semantics is true");
+          } 
+          }
+      
     
   } 
 
@@ -63,3 +71,14 @@ class Do{
    Do1.changeTransformationOOP(0, "stay away from peoples");
    MLai1.Learn(1, "event of Earth MateE Material Engineering year 2008");
    MLai1.derivedLearns(MLai1.MemoryArraylogicsAssign[0], MLai1.MemoryArraylogicsAssign[1]);
+   MLai1.Learn(2, "MLai module has been built");
+   MLai1.Learn(3, "i still don't know what to do next");
+   MLai1.derivedLearns(MLai1.MemoryArraylogicsAssign[2], MLai1.MemoryArraylogicsAssign[3]);
+   MLai1.Learn(4, "it needs to be determined from the Module MLai");
+   MLai1.Learn(5, "there're total chaos everytime");
+   MLai1.Learn(6, "it's still mostly beautifull days");
+   MLai1.derivedLearns(MLai1.MemoryArraylogicsAssign[5], MLai1.MemoryArraylogicsAssign[6]);
+   MLai1.Learn(7, "time goes so slow, but it's stable");
+   MLai1.derivedLearns(MLai1.MemoryArraylogicsAssign[5], MLai1.MemoryArraylogicsAssign[7]);
+   Do1.changeTransformationOOP(1, "i let the codes decide");
+   Do1.changeTransformationOOP(2, "i keep on adding logics assignments");
