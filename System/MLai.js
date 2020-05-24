@@ -31,10 +31,7 @@ class Do{
          }
 }
      
-      MLai1 = new MLai();
-      Do1 = new Do();
-      MLai1.Learn();
-      Do1.changeTransformationOOP();
+      
       
      //MLai.prototype.attributesExample = "yes";
       
@@ -42,15 +39,17 @@ class Do{
    
          MLai1.MemoryArray[0] = "People are azzholes";
          MLai1.MemoryArraylogicsAssign[0] = new Boolean(true);
-         //document.write("<br>" + MLai1.MemoryArray[0] + MLai1.MemoryArraylogicsAssign[0]);
+         document.write("<br>" + MLai1.MemoryArray[0] + "&nbsp;&nbsp;" + MLai1.MemoryArraylogicsAssign[0]);
      } 
 
     Do.prototype.changeTransformationOOP = function (){
 
         Do1.Learnt[0] = "stay away from people";
-        Do1.LearntlogicsAssign = new Boolean(true);
-        //document.write("<br>" + Do1.Learnt[0] + Do1.LearntlogicsAssign[0]);
+        Do1.LearntlogicsAssign[0] = new Boolean(true);
+       document.write("<br>" + Do1.Learnt[0] + "&nbsp;&nbsp;" + Do1.LearntlogicsAssign[0]);
       
    }  
-            
-      document.write("<br>" + "display something");
+   MLai1 = new MLai();
+   Do1 = new Do();
+   MLai1.Learn();
+   Do1.changeTransformationOOP();
