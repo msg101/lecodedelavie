@@ -35,21 +35,21 @@ class Do{
       
      //MLai.prototype.attributesExample = "yes";
       
-     MLai.prototype.Learn = function (){
-   
-         MLai1.MemoryArray[0] = "People are azzholes";
-         MLai1.MemoryArraylogicsAssign[0] = new Boolean(true);
-         document.write("<br>" + MLai1.MemoryArray[0] + "&nbsp;&nbsp;" + MLai1.MemoryArraylogicsAssign[0]);
+     MLai.prototype.Learn = function (index){
+         var i = index;
+         MLai1.MemoryArray[i] = "People are azzholes";
+         MLai1.MemoryArraylogicsAssign[i] = new Boolean(true);
+         document.write("<br>" + MLai1.MemoryArray[i] + "&nbsp;&nbsp;" + MLai1.MemoryArraylogicsAssign[i]);
      } 
 
-    Do.prototype.changeTransformationOOP = function (){
-
-        Do1.Learnt[0] = "stay away from people";
-        Do1.LearntlogicsAssign[0] = new Boolean(true);
-       document.write("<br>" + Do1.Learnt[0] + "&nbsp;&nbsp;" + Do1.LearntlogicsAssign[0]);
+    Do.prototype.changeTransformationOOP = function (index){
+        var i = index;
+        Do1.Learnt[i] = "stay away from people";
+        Do1.LearntlogicsAssign[i] = new Boolean(true);
+        document.write("<br>" + Do1.Learnt[i] + "&nbsp;&nbsp;" + Do1.LearntlogicsAssign[i]);
       
    }  
    MLai1 = new MLai();
    Do1 = new Do();
-   MLai1.Learn();
-   Do1.changeTransformationOOP();
+   MLai1.Learn(0);
+   Do1.changeTransformationOOP(0);
