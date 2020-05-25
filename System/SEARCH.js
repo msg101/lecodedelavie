@@ -43,19 +43,24 @@ class Search{
 Search.prototype.actualSearch = function (searchqry){
     var iMax = MLai1.MemoryArray.length -1;
     var i = 0;
-    var positionfound = "blank";
+    var positionfound = -2;
     var numberoffound = 0;
-    for(i=0; i<=iMax;i++){
-        positionfound = MLai1.MemoryArray[i].search(searchqry);
-        if(positionfound >= 0 && positionfound <=iMax){
-           numberoffound++;
-           document.write("<br>" + "found " + numberoffound + "&nbsp;&nbsp;results");
-           document.write("<br>" + MLai1.MemoryArray[positionfound] + "&nbsp;&nbsp;" + MLai1.MemoryArraylogicsAssign[positionfound]);
-        }
-    }
+    var strtoSearch = "blank";
 
+
+    for(i=0; i<=iMax;i++){
+        strtoSearch = MLai1.MemoryArray[i];
+        positionfound = strtoSearch.search(searchqry);
+        if(positionfound != -1){
+        
+           document.write("<br><br> " + MLai1.MemoryArray[i]);
+           numberoffound++;
+        }    
+                
+    }
+    document.write("<br><br>your SEARCH on " + searchqry + " yield " + numberoffound + " Results");
+   
 }
 
 
 Search1 = new Search();
-Search1.actualSearch("People");
