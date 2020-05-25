@@ -53,7 +53,7 @@ Search.prototype.actualSearch = function (searchqry){
         positionfound = strtoSearch.search(searchqry);
         if(positionfound != -1){
         
-           document.write("<br><br> " + MLai1.MemoryArray[i]);
+           document.write("<br><br> " + MLai1.MemoryArray[i] + " &nbsp; " + MLai1.MemoryArraylogicsAssign[i]);
            numberoffound++;
         }    
                 
