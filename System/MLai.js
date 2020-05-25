@@ -60,10 +60,23 @@ class Do{
           if(semantics1 || semantics2){ //else 1 OR 0 = 1 (true)
               document.write("<br>" + "either semantics is true");
           } 
+          else {
+              document.write("<br>" + "all falses");
+          }
           }
       
     
-  } 
+   } 
+   MLai.prototype.changeLogics = function (index, changethisSemanticsLogics){
+       if(changethisSemanticsLogics){
+           MLai1.MemoryArraylogicsAssign[index] = false;
+           document.write("<br>" + MLai1.MemoryArray[index] + "&nbsp;&nbsp;" + MLai1.MemoryArraylogicsAssign[index]);
+       } else{
+           MLai1.MemoryArraylogicsAssign[index] = true;
+           document.write("<br>" + MLai1.MemoryArray[index] + "&nbsp;&nbsp;" + MLai1.MemoryArraylogicsAssign[index]);
+       }
+   }
+
 
    MLai1 = new MLai();
    Do1 = new Do();
@@ -82,3 +95,5 @@ class Do{
    MLai1.derivedLearns(MLai1.MemoryArraylogicsAssign[5], MLai1.MemoryArraylogicsAssign[7]);
    Do1.changeTransformationOOP(1, "i let the codes decide");
    Do1.changeTransformationOOP(2, "i keep on adding logics assignments");
+   Do1.changeTransformationOOP(3, "i wish Peoples were nicer to me");
+   MLai1.changeLogics(0, MLai1.MemoryArraylogicsAssign[0]);
