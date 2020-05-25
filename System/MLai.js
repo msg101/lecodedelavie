@@ -91,7 +91,7 @@ class Do{
    MLai1.Learn(5, "there're total chaos everytime");
    MLai1.Learn(6, "it's still mostly beautifull days");
    MLai1.derivedLearns(MLai1.MemoryArraylogicsAssign[5], MLai1.MemoryArraylogicsAssign[6]);
-   MLai1.Learn(7, "time goes so slow, but it's stable");
+   MLai1.Learn(7, "time goes so slow/fast, but it's stable");
    MLai1.derivedLearns(MLai1.MemoryArraylogicsAssign[5], MLai1.MemoryArraylogicsAssign[7]);
    Do1.changeTransformationOOP(1, "i let the codes decide");
    Do1.changeTransformationOOP(2, "i keep on adding logics assignments");
