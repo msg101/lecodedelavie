@@ -32,4 +32,5 @@ System1 = new System();
 System.prototype.bootRqst = function (){
     
     document.write("booting/rebooting");
+    document.write("<br>" + Core1.serial);
 }
