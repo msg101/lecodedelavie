@@ -41,7 +41,7 @@ class Search{
 
 
 
-
+/* Search per Arrays, there's 2 Arrays Objects to Search
 Search.prototype.actualSearch = function (searchqry){
     var iMax = MLai1.MemoryArray.length - 1; 
     var i = 0;
@@ -63,6 +63,7 @@ Search.prototype.actualSearch = function (searchqry){
     document.write("<br><br>your SEARCH on " + searchqry + " yield " + numberoffound + " Results");
    
 }
+*/
 
 Search.prototype.MainSearch = function (searchqry){
     
