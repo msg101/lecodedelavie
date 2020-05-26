@@ -97,3 +97,4 @@ class Do{
    Do1.changeTransformationOOP(2, "i keep on adding logics assignments");
    Do1.changeTransformationOOP(3, "i wish Peoples were nicer to me");
    MLai1.changeLogics(0, MLai1.MemoryArraylogicsAssign[0]);
+   MLai1.Learn(8, "it's either too hot or too cold, so annoying");
