@@ -1,5 +1,5 @@
 /*
- *     this is UX, it should be a later add to bot_a
+ *    
  *
  * 
  * 
@@ -30,40 +30,9 @@ class Search{
 
 
 
-/*System.Modules.init();
-*/
-
-//System.prototype.attributesExample = "yes";
-
-/*System.prototype.methodExample = function (){
-//}
-*/
 
 
 
-/* Search per Arrays, there's 2 Arrays Objects to Search
-Search.prototype.actualSearch = function (searchqry){
-    var iMax = MLai1.MemoryArray.length - 1; 
-    var i = 0;
-    var positionfound = -2;
-    var numberoffound = 0;
-    var strtoSearch = "blank";
-
-
-    for(i=0; i<=iMax;i++){
-        strtoSearch = MLai1.MemoryArray[i];
-        positionfound = strtoSearch.search(searchqry);
-        if(positionfound != -1){
-        
-           document.write("<br><br> " + MLai1.MemoryArray[i] + " &nbsp; " + MLai1.MemoryArraylogicsAssign[i]);
-           numberoffound++;
-        }    
-                
-    }
-    document.write("<br><br>your SEARCH on " + searchqry + " yield " + numberoffound + " Results");
-   
-}
-*/
 
 Search.prototype.MainSearch = function (searchqry){
     
