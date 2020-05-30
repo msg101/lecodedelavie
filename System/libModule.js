@@ -58,4 +58,77 @@ libModule.prototype.mergeAry = function(ary1, ary2, ary3, ary4){
     
 }
 
+/*
+ * aray content is compared from left to right from index 0 to length - 1;
+ *
+ * while(j<=iMax){
+        for(i=0;i<=iMax;i++){
+           if(j != i){
+
+             strtosearch = testAry[j];
+             positionfound = testAry[i].search(testAry[j]);
+             if(positionfound != -1){
+                document.write("<br><br> " + j + " " + i);
+             }
+             
+           }
+        }
+    j++;
+    }
+ *   
+ * 
+ * 
+ * 
+ *
+ * 
+ * 
+ * 
+ */
+
+ 
+
+libModule.prototype.resequenceAry = function(){
+
+    var testAry = ["clause1", "clause2", "clause3", "clause4", "clause5", "clause1"];
+    var testArylogics = [true, false, true, true, true, true];
+    var iMax = testArylogics.length -1;
+    var delindexAry = [];
+    var indexArysearch = [];
+    var i = 0;
+    var j = 0;
+    var strtosearch = "blank";
+    var positionfound = 0;
+    var iMaxleft = 0;
+    var ileft = 0;
+    var k = 0;
+    
+    while(j<=iMax){
+        for(i=0;i<=iMax;i++){
+           if(j != i){
+
+             strtosearch = testAry[j];
+             positionfound = testAry[i].search(testAry[j]);
+             if(positionfound != -1){
+                document.write("<br><br> " + j + " " + i);
+                  
+             }
+             
+           }
+        }
+    j++;
+    }
+         
+    
+
+  
+        
+         
+          
+}
+
+
+
+
+
+
 libModule1 = new libModule();

@@ -64,3 +64,5 @@ Search.prototype.MainSearch = function(searchqry){
 
 Search1 = new Search();
 libModule1.mergeAry(MLai1.MemoryArray, Do1.Learnt, MLai1.MemoryArraylogicsAssign, Do1.LearntlogicsAssign);
+//libModule1.resequenceAry(Search1.ObjArryMain, Search1.ObjArrayMainlogics);
+libModule1.resequenceAry();
