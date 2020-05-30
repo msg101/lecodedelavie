@@ -1,3 +1,39 @@
+/*
+ * search array from left to right from 0 index to length -1
+
+
+  while(j<=iMax){
+        for(i=0;i<=iMax;i++){
+           if(j != i){
+
+             strtosearch = testAry[j];
+             positionfound = testAry[i].search(testAry[j]);
+             if(positionfound != -1){
+                document.write("<br><br> " + j + " " + i);
+                  
+             }
+             
+           }
+        }
+    j++;
+    }
+ *
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+
+
+
+
+
 class libModule{
     constructor(){
         this.info = "this is a libModule";
