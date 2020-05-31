@@ -103,3 +103,4 @@ class Do{
    MLai1.Learn(11, "the meaning of life is 2min or 5min");
    MLai1.Learn(12, "how to use bot_a ---hint is we do logics deductions");
    MLai1.Learn(13, "there's less people that are azzholes in year 2008 or afterwards, there's MatE");
+   MLai1.Learn(14, "People are azzholes");
