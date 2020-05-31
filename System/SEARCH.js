@@ -13,6 +13,8 @@ class Search{
         this.searchqry = "search on something";
         this.ObjArryMain = [];
         this.ObjArrayMainlogics = [];
+        this.dataAry1 = [];
+        this.dataAry1logics = [];
     }
 
 }
@@ -27,6 +29,25 @@ class Search{
 /*System.prototype.methodExample = function (){
 //}
 */
+
+Search.prototype.copiedoverdataAry1 = function(){
+
+ var i = 0;
+
+ var iMax = 0;
+
+ iMax = libModule1.dataAry1.length - 1;
+
+ document.write("<br><br> " + " array is resequenced....");
+ for(i=0;i<=iMax;i++){
+
+     Search1.dataAry1[i] = libModule1.dataAry1[i];
+     Search1.dataAry1logics[i] = libModule1.dataAry1logics[i];
+     document.write("<br><br> "  + Search1.dataAry1[i] + " " + Search1.dataAry1logics[i]);
+
+ }
+
+}
 
 Search.prototype.MainSearch = function(searchqry){
     
@@ -64,3 +85,5 @@ Search.prototype.MainSearch = function(searchqry){
 
 Search1 = new Search();
 libModule1.mergeAry(MLai1.MemoryArray, Do1.Learnt, MLai1.MemoryArraylogicsAssign, Do1.LearntlogicsAssign);
+libModule1.resequenceAry(Search1.ObjArryMain, Search1.ObjArrayMainlogics);
+Search1.copiedoverdataAry1();

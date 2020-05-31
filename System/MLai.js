@@ -55,13 +55,13 @@ class Do{
 
    MLai.prototype.derivedLearns = function (semantics1, semantics2){
       if(semantics1 && semantics2){ //1 AND 1 = 1 (true)
-          document.write("<br>" + "either one is false");
+          document.write("<br>" + "an AND is deduction to true, it goes to ALL2ALL true very vague, the trick is you still have to AND the 2 clauses together, one easy answer is all you have to do is put the word and between the 2 clauses");
       } else{
           if(semantics1 || semantics2){ //else 1 OR 0 = 1 (true)
-              document.write("<br>" + "either semantics is true");
+              document.write("<br>" + "a OR true is by one of the statements");
           } 
           else {
-              document.write("<br>" + "all falses");
+              document.write("<br>" + "a false false lead to false (more falses)");
           }
           }
       
@@ -98,3 +98,9 @@ class Do{
    Do1.changeTransformationOOP(3, "i wish Peoples were nicer to me");
    MLai1.changeLogics(0, MLai1.MemoryArraylogicsAssign[0]);
    MLai1.Learn(8, "it's either too hot or too cold, so annoying");
+   MLai1.Learn(9, "a day starts as soon as at midnight (12 PM)");
+   MLai1.Learn(10, "bot_a make all decisions for me, if not he understands Linguistics");
+   MLai1.Learn(11, "the meaning of life is 2min or 5min");
+   MLai1.Learn(12, "how to use bot_a ---hint is we do logics deductions");
+   MLai1.Learn(13, "there's less people that are azzholes in year 2008 or afterwards, there's MatE");
+   MLai1.Learn(14, "People are azzholes");
