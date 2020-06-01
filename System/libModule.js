@@ -269,6 +269,72 @@ libModule.prototype.resequenceAry = function(ary1, ary2){
  * 
  */
 
+libModule.prototype.delitemsinAry = function(index){
+   var index_ = 0;
+   index_ = index;
+   var iMax = 0;
+   iMax = Search1.dataAry1.length - 1;
+   var i = 0;
+   var j = 0;
+   var jMax = 0;
+   jMax = Search1.dataAry1.length - 2;
+   var tmpAry = [];
+   var tmpArylogics = [];
+   var tmpindexAry = [];
+   var tmpindexArylogics = [];
+
+   document.write("<br><br> " + " 1 item was deleted....");
+
+    
+    for(i=0;i<=iMax;i++){
+        if(i == index_){
+           i++;
+        }
+        tmpAry[j] = Search1.dataAry1[i];
+        tmpArylogics[j] = Search1.dataAry1logics[i];
+
+        
+       j++;
+    }
+    for(j=0;j<=jMax;j++){ //copy local to OOP Objects
+
+      //document.write("<br><br> " + tmpAry[j] + " " + tmpArylogics[j] + " " + j);
+      Search1.dataAry1[j] = tmpAry[j];
+      Search1.dataAry1logics[j] = tmpArylogics[j];
+   
+   }
+
+   for(j=0;j<=jMax;j++){
+
+       document.write("<br><br> " + Search1.dataAry1[j] + " " + Search1.dataAry1logics[j] + " " + j);
+
+
+   }
+      
+      
+   
+   
+      
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 libModule.prototype.resequenceAry = function(ary1, ary2){
 
    var testAry = [];
