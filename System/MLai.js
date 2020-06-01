@@ -55,13 +55,13 @@ class Do{
 
    MLai.prototype.derivedLearns = function (semantics1, semantics2){
       if(semantics1 && semantics2){ //1 AND 1 = 1 (true)
-          document.write("<br>" + "an AND is deduction to true, it goes to ALL2ALL true very vague, the trick is you still have to AND the 2 clauses together, one easy answer is all you have to do is put the word and between the 2 clauses");
+         // document.write("<br>" + "an AND is deduction to true, it goes to ALL2ALL true very vague, the trick is you still have to AND the 2 clauses together, one easy answer is all you have to do is put the word and between the 2 clauses");
       } else{
           if(semantics1 || semantics2){ //else 1 OR 0 = 1 (true)
-              document.write("<br>" + "a OR true is by one of the statements");
+           //   document.write("<br>" + "a OR true is by one of the statements");
           } 
           else {
-              document.write("<br>" + "a false false lead to false (more falses)");
+             // document.write("<br>" + "a false false lead to false (more falses)");
           }
           }
       

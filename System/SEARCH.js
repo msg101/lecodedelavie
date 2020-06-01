@@ -30,6 +30,8 @@ class Search{
 //}
 */
 
+
+
 Search.prototype.copiedoverdataAry1 = function(){
 
  var i = 0;
@@ -43,7 +45,7 @@ Search.prototype.copiedoverdataAry1 = function(){
 
      Search1.dataAry1[i] = libModule1.dataAry1[i];
      Search1.dataAry1logics[i] = libModule1.dataAry1logics[i];
-     document.write("<br><br> "  + Search1.dataAry1[i] + " " + Search1.dataAry1logics[i]);
+     document.write("<br> "  + Search1.dataAry1[i] + " " + Search1.dataAry1logics[i] + " " + i);
 
  }
 
@@ -87,3 +89,5 @@ Search1 = new Search();
 libModule1.mergeAry(MLai1.MemoryArray, Do1.Learnt, MLai1.MemoryArraylogicsAssign, Do1.LearntlogicsAssign);
 libModule1.resequenceAry(Search1.ObjArryMain, Search1.ObjArrayMainlogics);
 Search1.copiedoverdataAry1();
+libModule1.delitemsinAry(0);
+ 
