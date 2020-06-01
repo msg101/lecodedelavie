@@ -303,13 +303,14 @@ libModule.prototype.delitemsinAry = function(index){
       Search1.dataAry1logics[j] = tmpArylogics[j];
    
    }
-
+/*
    for(j=0;j<=jMax;j++){
 
        document.write("<br><br> " + Search1.dataAry1[j] + " " + Search1.dataAry1logics[j] + " " + j);
 
 
    }
+*/ 
       
       
    
@@ -321,7 +322,35 @@ libModule.prototype.delitemsinAry = function(index){
 
 
 
+libModule.prototype.displayAry = function(ary1, ary2){
 
+   var tmpAry = [];
+   var tmpArylogics = [];
+   var i = 0;
+   var iMax = 0;
+   tmpAry = ary1;
+   tmpArylogics = ary2;
+   iMax = tmpAry.length - 2;
+
+   for(i=0;i<=iMax;i++){
+
+      document.write("<br><br> " + tmpAry[i] + " " + tmpArylogics[i] + " " + i);
+
+
+
+
+   }
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
