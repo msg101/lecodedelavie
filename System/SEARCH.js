@@ -90,4 +90,5 @@ libModule1.mergeAry(MLai1.MemoryArray, Do1.Learnt, MLai1.MemoryArraylogicsAssign
 libModule1.resequenceAry(Search1.ObjArryMain, Search1.ObjArrayMainlogics);
 Search1.copiedoverdataAry1();
 libModule1.delitemsinAry(0);
+libModule1.displayAry(Search1.dataAry1, Search1.dataAry1logics);
  
