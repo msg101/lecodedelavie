@@ -296,10 +296,20 @@ libModule.prototype.delitemsinAry = function(index){
         
        j++;
     }
-    for(j=0;j<=jMax;j++){
+    for(j=0;j<=jMax;j++){ //copy local to OOP Objects
 
-      document.write("<br><br> " + tmpAry[j] + " " + tmpArylogics[j] + " " + j);
-    }
+      //document.write("<br><br> " + tmpAry[j] + " " + tmpArylogics[j] + " " + j);
+      Search1.dataAry1[j] = tmpAry[j];
+      Search1.dataAry1logics[j] = tmpArylogics[j];
+   
+   }
+
+   for(j=0;j<=jMax;j++){
+
+       document.write("<br><br> " + Search1.dataAry1[j] + " " + Search1.dataAry1logics[j] + " " + j);
+
+
+   }
       
       
    
